@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Contact — Every Body</title>
+<meta name="description" content="Wholesale, custom orders, or just want to share a kind word — we'd love to hear from you."/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;0,800;1,800&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Every Body.</a>
+    <button class="menu-btn" aria-label="Menu">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container">
+  <div class="contact-intro reveal from-top">
+    <h1>Say hi!</h1>
+    <p>Wholesale, custom orders, or just want to share a kind word — we'd love to hear from you.</p>
+  </div>
+  <form id="contact-form" class="contact reveal from-bottom">
+    <label for="name">Your name</label>
+    <input id="name" name="name" required/>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required/>
+    <label for="pronouns">Pronouns (optional)</label>
+    <input id="pronouns" name="pronouns" placeholder="she/her, they/them, he/him..."/>
+    <label for="msg">Message</label>
+    <textarea id="msg" name="message" required></textarea>
+    <button type="submit">Send it</button>
+  </form>
+</section>
+
+<footer><span class="brand">Every Body.</span>© Chaize Creates — every body belongs.</footer>
+<script src="script.js"></script>
+</body>
+</html>
